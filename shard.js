@@ -1,6 +1,6 @@
 const ayarlar = require('./ayarlar.json');
 const { ShardingManager } = require('discord.js');
-const shard = new ShardingManager('./index.js', {
+const shard = new ShardingManager('./index.js', { //ana dosyanızı buraya yazınız! 
   token: ayarlar.token,
   autoSpawn: true
 });
